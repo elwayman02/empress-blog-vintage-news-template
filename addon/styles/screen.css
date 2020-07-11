@@ -1,0 +1,123 @@
+/*
+
+This is a development CSS file which is built to a minified
+production stylesheet in assets/built/screen.css using gulp dev
+
+*/
+
+
+/* Lib - Local component imports
+/* ---------------------------------------------------------- */
+@import "vars.css";
+@import "components/global.css";
+@import "components/ghost.css";
+@import "components/lists.css";
+@import "components/grid.css";
+@import "components/tables.css";
+@import "components/forms.css";
+@import "components/buttons.css";
+
+
+/* Main - Theme styles
+/* ---------------------------------------------------------- */
+
+/* Your styles here */
+body {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 1.4rem;
+  font-family: "EB Garamond", serif;
+  color: black;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/paper_fibers.png)
+  repeat;
+  padding: 4rem 2rem;
+  line-height: 1.3;
+  column-break-inside: avoid;
+}
+
+h1 {
+  font: 50px/1 "Playfair Display SC";
+  text-align: center;
+}
+
+h2 {
+  font: italic 30px "Playfair Display", serif;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3 {
+  font: italic 17px "Playfair Display", serif;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font: 17px/1.2 "Playfair Display", serif;
+}
+
+h5 {
+  font: 700 17px/1 "EB Garamond", serif;
+  transition: 0.3s ease;
+}
+
+.page-head {
+  display: grid;
+  grid-gap: 1.2rem;
+}
+
+h1,
+aside {
+  grid-column: 1 / -1;
+}
+
+aside {
+  padding: 3px 0;
+  border: solid black;
+  border-width: 2px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1.5rem 0;
+}
+
+aside div {
+  display: flex;
+  align-items: center;
+  border: solid black;
+  border-width: 1px 0;
+}
+
+aside div div {
+  flex: 1;
+  padding: 8px;
+  justify-content: center;
+}
+
+.post-feed {
+  display: grid;
+  grid-template-columns: repeat(6, 180px);
+  grid-gap: 15px;
+}
+
+.post-card-content {
+  grid-column: 1 / -2;
+}
+
+.kg-card-markdown {
+  column-count: 2;
+  column-gap: 10px;
+  margin-top: 0.75rem;
+  text-align: justify;
+}
+
+.post-card {
+  grid-column: span 2;
+  position: relative;
+}
+
+.post-card:not(:nth-child(3n+1)):before {
+  content: '';
+  position: absolute;
+  left: -7.5px;
+  height: 100%;
+  border-left: 1px solid black;
+}

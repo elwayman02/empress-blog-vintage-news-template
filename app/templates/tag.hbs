@@ -1,0 +1,16 @@
+<header class="page-head">
+  <aside>
+    <div>
+      <div class="issue">Issue #{{model.name}}</div>
+      <div class="date">{{model.image}}</div>
+      <div class="edition">{{model.imageMeta}}</div>
+    </div>
+  </aside>
+</header>
+
+<div class="post-feed">
+  {{#each model.posts as |post|}}
+    {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+    <PostCard @post={{post}} />
+  {{/each}}
+</div>

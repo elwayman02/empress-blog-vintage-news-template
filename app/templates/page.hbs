@@ -1,0 +1,10 @@
+
+{{#let model as |post|}}
+<article class="post-content {{post_class}} {{unless post.image 'no-image'}}">
+
+    <div class="post-content-body">
+        {{markdown-to-html post.content tagName=""}}
+    </div>
+
+</article>
+{{/let}}

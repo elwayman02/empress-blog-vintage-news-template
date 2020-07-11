@@ -1,0 +1,10 @@
+{{!--
+Re-usable card for linking to posts
+--}}
+
+<article class="post-card {{post_class}}" style={{computedStyle}}>
+  <div class="post-card-content">
+      <h2 class="post-card-title">{{@post.title}}</h2>
+  </div>
+  {{markdown-to-html @post.html}}
+</article>

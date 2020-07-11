@@ -1,0 +1,32 @@
+
+
+{{#let model as |author|}}
+<header class="page-head">
+    <h1 class="page-head-title">{{author.name}}</h1>
+    {{#if author.content}}<p class="page-head-description">{{author.content}}</p>{{/if}}
+
+    <div class="author-meta">
+        <div class="author-links">
+            {{#if author.website}}
+            <a href={{author.website}} target="_blank" rel="noopener">Website</a> <span class="divider">/</span>
+            {{/if}}
+            {{#if author.twitter}}
+            <a href="https://twitter.com/{{author.twitter}}" target="_blank" rel="noopener">Twitter</a> <span class="divider">/</span>
+            {{/if}}
+            {{#if facebook}}
+            <a href="https://facebook.com/{{author.facebook}}" target="_blank" rel="noopener">Facebook</a> <span class="divider">/</span>
+            {{/if}}
+            {{!-- <a href="https://feedly.com/i/subscription/feed/{{url absolute="true"}}rss/" target="_blank" rel="noopener">RSS</a> --}}
+        </div>
+    </div>
+</header>
+{{/let}}
+
+<div class="post-feed">
+{{#each author.posts as |post|}}
+
+    {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+    <PostCard @post={{post}} />
+
+{{/each}}
+</div>

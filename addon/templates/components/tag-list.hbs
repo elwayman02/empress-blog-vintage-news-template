@@ -1,0 +1,5 @@
+{{#each (sort-by 'name:asc' tags) as |tag|}}
+  {{#link-to 'tag' tag.id}}
+    <h2>Issue #{{tag.name}} - {{tag.image}}</h2>
+  {{/link-to}}
+{{/each}}
