@@ -9,7 +9,7 @@ authors:
   - ghost
 date: Tue Jun 12 2018 17:50:55 GMT+0100 (IST)
 tags:
-  - getting-started
+  - issue-2
 ---
 
 There are lots of powerful things you can do with the Markdown
