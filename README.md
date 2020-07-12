@@ -1,7 +1,7 @@
 empress-blog-vintage-news-template
 ==============================================================================
 
-[Short description of the addon.]
+Vintage Newspaper Template based on this [Codepen](https://codepen.io/oliviale/pen/BaoXOOP?editors=1100)
 
 
 Compatibility
