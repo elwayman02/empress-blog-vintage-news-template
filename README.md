@@ -3,6 +3,7 @@ empress-blog-vintage-news-template
 
 Vintage Newspaper Template based on this [Codepen](https://codepen.io/oliviale/pen/BaoXOOP?editors=1100)
 
+Check out a [production example](https://weevil.news/)!
 
 Compatibility
 ------------------------------------------------------------------------------
