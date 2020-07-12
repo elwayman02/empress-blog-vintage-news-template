@@ -1,12 +1,12 @@
 <ul class="nav" role="menu">
     {{#each blog.navigation as |navigation|}}
-      <li class="{{if (route-is navigation.route) 'nav-current'}}" role="menuitem">
+      <li class="{{if (route-is navigation.route) 'nav-current'}}" >
         {{#if navigation.id}}
-          {{#link-to navigation.route navigation.id}} {{navigation.label}} {{/link-to}}
+          {{#link-to navigation.route navigation.id role="menuitem"}} {{navigation.label}} {{/link-to}}
         {{else if navigation.route}}
-          {{#link-to navigation.route}} {{navigation.label}} {{/link-to}}
+          {{#link-to navigation.route role="menuitem"}} {{navigation.label}} {{/link-to}}
         {{else if navigation.link}}
-          <a href="{{navigation.link}}"> {{navigation.label}} </a>
+          <a href="{{navigation.link}}" role="menuitem"> {{navigation.label}} </a>
         {{/if}}
       </li>
     {{/each}}
