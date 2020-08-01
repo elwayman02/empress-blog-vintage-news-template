@@ -132,7 +132,7 @@ aside div div {
 }
 
 .post-card-image-overlay{
-  filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+  filter:brightness(70%) contrast(150%) saturate(0%) brightness(250%);
   background-image: url('https://i.imgur.com/4rKVgAQ.png');
   background-repeat: repeat-y;
   mix-blend-mode:multiply;
