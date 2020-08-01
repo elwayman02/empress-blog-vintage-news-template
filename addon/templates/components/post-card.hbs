@@ -3,6 +3,12 @@ Re-usable card for linking to posts
 --}}
 
 <article class="post-card {{post_class}}" style={{computedStyle}}>
+  {{#if @post.image}}
+    <div class="post-card-image">
+      <img src={{@post.image}} alt={{@post.title}}/>
+      <div class="post-card-image-overlay"></div>
+    </div>
+  {{/if}}
   <div class="post-card-content">
       <h2 class="post-card-title">{{@post.title}}</h2>
   </div>
