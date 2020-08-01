@@ -1,6 +1,6 @@
 ---
 title: Why Ember
-image: /images/ember.jpg
+image: 
 imageMeta:
   attribution: by Robert Wagner
   attributionLink: https://unsplash.com/photos/OM4TjQwHC1I

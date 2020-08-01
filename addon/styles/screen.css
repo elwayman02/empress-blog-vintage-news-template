@@ -121,3 +121,25 @@ aside div div {
   height: 100%;
   border-left: 1px solid black;
 }
+
+.post-card-image {
+  position: relative;
+  display: inline-block;
+}
+
+.post-card-image img {
+  filter: grayscale(100%);
+}
+
+.post-card-image-overlay{
+  filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+  background-image: url('https://i.imgur.com/4rKVgAQ.png');
+  background-repeat: repeat-y;
+  mix-blend-mode:multiply;
+  position:absolute;
+  display:inline-block;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+}
