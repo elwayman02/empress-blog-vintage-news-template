@@ -2,7 +2,7 @@
 Re-usable card for linking to posts
 --}}
 
-<article class="post-card {{post_class}}" style={{computedStyle}} {{grid-row-span content=@post.html}}>
+<article class="post-card {{post_class}}" style={{computedStyle}} {{grid-row-span content=@post.html image=@post.image}}>
   {{#if @post.image}}
     <div class="post-card-image">
       <img src={{@post.image}} alt={{@post.title}}/>
