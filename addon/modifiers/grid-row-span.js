@@ -1,7 +1,9 @@
 import { modifier } from 'ember-modifier';
 
 export default modifier(function gridRowSpan(element, params, hash) {
-  let contentHeight = element.getElementsByClassName('post-card-content')[0].offsetHeight;
+  let content = element.getElementsByClassName('post-card-content')[0];
+  let contentHeight = content ? content.offsetHeight : 0;
+
   if (hash.image) {
     let imageWrapper = element.getElementsByClassName('post-card-image')[0];
     let image = imageWrapper.getElementsByTagName('img')[0];
