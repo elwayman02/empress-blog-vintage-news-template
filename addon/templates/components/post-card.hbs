@@ -10,7 +10,7 @@ Re-usable card for linking to posts
     </div>
   {{/if}}
   <div class="post-card-content">
-      <h2 class="post-card-title">{{@post.title}}</h2>
+    <h2 class="post-card-title">{{@post.title}}</h2>
+    {{markdown-to-html @post.html}}
   </div>
-  {{markdown-to-html @post.html}}
 </article>

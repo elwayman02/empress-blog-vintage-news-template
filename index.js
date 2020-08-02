@@ -1,6 +1,8 @@
 'use strict';
 
 module.exports = {
+  // isDevelopingAddon: () => true,
+
   name: require('./package').name,
 
   contentFor(type) {
