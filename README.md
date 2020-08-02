@@ -5,6 +5,8 @@ Vintage Newspaper Template based on this [Codepen](https://codepen.io/oliviale/p
 
 Check out a [production example](https://weevil.news/)!
 
+We adhere to the [Ember Community Guidelines](https://emberjs.com/guidelines/) for our Code of Conduct.
+
 Compatibility
 ------------------------------------------------------------------------------
 
