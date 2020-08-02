@@ -4,6 +4,7 @@ empress-blog-vintage-news-template
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3fbd7ef6-053b-4e11-8093-bc6e6160fceb/deploy-status)](https://app.netlify.com/sites/practical-lichterman-ed1733/deploys)
 
 Vintage Newspaper Template based on this [Codepen](https://codepen.io/oliviale/pen/BaoXOOP?editors=1100)
+Masonry Layout based on this [article](https://w3bits.com/css-grid-masonry/)
 
 Check out a [production example](https://weevil.news/)!
 
