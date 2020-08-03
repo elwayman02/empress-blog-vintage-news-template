@@ -83,6 +83,8 @@ Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
+[![Powered By Netlify](https://www.netlify.com/img/global/badges/netlify-light.svg)](https://www.netlify.com)
+
 
 License
 ------------------------------------------------------------------------------
