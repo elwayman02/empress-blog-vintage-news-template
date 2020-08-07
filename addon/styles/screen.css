@@ -23,7 +23,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 
 /* Your styles here */
 body {
-  max-width: 1200px;
+  width: 1200px;
   margin: auto;
   font-size: 1.4rem;
   font-family: "EB Garamond", serif;
