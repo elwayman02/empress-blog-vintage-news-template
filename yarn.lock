@@ -3817,7 +3817,7 @@ broccoli-stew@^3.0.0:
     symlink-or-copy "^1.2.0"
     walk-sync "^1.1.3"
 
-broccoli-string-replace@^0.1.1, broccoli-string-replace@^0.1.2:
+broccoli-string-replace@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/broccoli-string-replace/-/broccoli-string-replace-0.1.2.tgz#1ed92f85680af8d503023925e754e4e33676b91f"
   integrity sha1-HtkvhWgK+NUDAjkl51Tk4zZ2uR8=
@@ -5575,7 +5575,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.11.0, ember-cli-babel@^6.16.0,
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.10.0, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.18.0, ember-cli-babel@^7.19.0, ember-cli-babel@^7.22.1, ember-cli-babel@^7.7.3:
+ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.10.0, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.18.0, ember-cli-babel@^7.19.0, ember-cli-babel@^7.22.1, ember-cli-babel@^7.7.3:
   version "7.22.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.22.1.tgz#cad28b89cf0e184c93b863d09bc5ba4ce1d2e453"
   integrity sha512-kCT8WbC1AYFtyOpU23ESm22a+gL6fWv8Nzwe8QFQ5u0piJzM9MEudfbjADEaoyKTrjMQTDsrWwEf3yjggDsOng==
@@ -6118,18 +6118,6 @@ ember-load-initializers@^2.1.1:
     ember-cli-babel "^7.11.0"
     ember-cli-typescript "^2.0.2"
 
-ember-lodash@^4.19.4:
-  version "4.19.5"
-  resolved "https://registry.yarnpkg.com/ember-lodash/-/ember-lodash-4.19.5.tgz#489293aceb25c8b165e9b0b802c4bd1e3a4cda37"
-  integrity sha512-3NMtKvEMpipaxRuf5jbihQ5iGWnZyYssxLd0xDbqzxTU/3rHhnDIVS3+qPnw5AT0iH+hjlFlk1M4Ekv/K8a+bw==
-  dependencies:
-    broccoli-debug "^0.6.1"
-    broccoli-funnel "^2.0.1"
-    broccoli-merge-trees "^3.0.0"
-    broccoli-string-replace "^0.1.1"
-    ember-cli-babel "^7.0.0"
-    lodash-es "^4.17.4"
-
 ember-macro-helpers@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ember-macro-helpers/-/ember-macro-helpers-2.2.0.tgz#682bb887fda0679fd82cf981190f6dbba20b6e03"
@@ -6418,10 +6406,10 @@ empress-blog-starter-template@^0.2.1:
     postcss-custom-properties "^8.0.9"
     postcss-easy-import "^3.0.0"
 
-empress-blog@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-1.9.0.tgz#8b0f3405d247917070e2d56e35d01b715fd5ef49"
-  integrity sha512-p/jLL6kXb9buCfeI3i5Agq8ARGdSt1Q7R6seOIVNv/AIAM5zLReBk4n/dt+gjq28f/YqaXurpcjcfsKhrUqfNw==
+empress-blog@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-2.0.0.tgz#49db0d990719705f157e9c36d502080356b85171"
+  integrity sha512-uHuoB7Xu02T905y9IyugvWJ8mgfR5dh6f0LC270vtq9MBWoy9uZWpAsyTJpbHw3Sz5NAZJ0x7Ix21h8LojVPFA==
   dependencies:
     broccoli-funnel "^3.0.3"
     broccoli-merge-trees "^3.0.0"
@@ -6436,11 +6424,10 @@ empress-blog@^1.9.0:
     ember-cli-showdown "^4.4.4"
     ember-cli-string-utils "^1.1.0"
     ember-get-config "^0.2.4"
-    ember-lodash "^4.19.4"
     ember-meta "^0.5.0"
     empress-blueprint-helpers "^1.2.1"
     js-yaml "^3.13.1"
-    lodash "^4.17.15"
+    lodash "^4.17.20"
     resolve "^1.10.1"
     walk-sync "^1.1.3"
     yaml-front-matter "^4.0.0"
@@ -9365,11 +9352,6 @@ locate-path@^6.0.0:
   integrity sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==
   dependencies:
     p-locate "^5.0.0"
-
-lodash-es@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
-  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
 
 lodash._baseassign@^3.0.0:
   version "3.2.0"
