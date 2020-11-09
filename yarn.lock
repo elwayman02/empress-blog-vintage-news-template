@@ -6557,10 +6557,10 @@ empress-blog-starter-template@^0.2.1:
     postcss-custom-properties "^8.0.9"
     postcss-easy-import "^3.0.0"
 
-empress-blog@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-2.0.0.tgz#49db0d990719705f157e9c36d502080356b85171"
-  integrity sha512-uHuoB7Xu02T905y9IyugvWJ8mgfR5dh6f0LC270vtq9MBWoy9uZWpAsyTJpbHw3Sz5NAZJ0x7Ix21h8LojVPFA==
+empress-blog@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-2.2.1.tgz#259c6421e0f5a8d9674bdb733c2676aad7dfb6af"
+  integrity sha512-I6LNHKubXKYnGR5YB53AKLsoQF+LIR0xblo5Zhh2GgSFLlyu7U9z2+4r1aQbHQGH3F7E3RzIXarCkfxJQY53/Q==
   dependencies:
     broccoli-funnel "^3.0.3"
     broccoli-merge-trees "^3.0.0"
